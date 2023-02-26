@@ -1,0 +1,62 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class ErrorClass {
+private:
+	string msg;
+	int num;
+public:
+	ErrorClass(string msg, int num)
+	{
+		this->msg = msg;
+		this->num = num;
+	}
+	string GetMsg()
+	{
+		return msg;
+	}
+	int GetNum()
+	{
+		return num;
+	}
+};
+
+int NulDivide(int a, int b)
+{
+	if (b == 0)
+	{
+		throw ErrorClass("divide by null", 1);
+	}
+	return a / b;
+}
+int ArrError(int* arr, int size, int i)
+{
+	if (i < 0 || i >= size)
+	{
+		throw ErrorClass("out_of_range", 2);
+	}
+	return arr[i];
+}
+
+int main()
+{
+	int a = 9, b = 0;
+	try {
+		NulDivide(a, b);
+	}
+	catch (ErrorClass er)
+	{
+		cout << "error: " << er.GetMsg() << " " << "error code:" << er.GetNum() << "\n";
+	}
+	int size = 10;
+	int arr[10] = { 1,4,5,7,9,10,3,4,44,65 };
+	try {
+		ArrError(arr, size, 30);
+	}
+	catch (ErrorClass er1)
+	{
+		cout << "error:" << er1.GetMsg() << " " << "error code:" << er1.GetNum() << "\n";
+	}
+
+}
