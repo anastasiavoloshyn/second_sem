@@ -1,0 +1,2 @@
+﻿  assembly6.cpp
+C:\Users\Artem\source\repos\2_Semestr\assembly6\assembly6.cpp : fatal error C1041: cannot open program database 'C:\Users\Artem\source\repos\2_Semestr\assembly6\Debug\vc142.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS

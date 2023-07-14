@@ -1,0 +1,6 @@
+5
+P: Apple 400 3
+P: Fruit 800 3
+P: Milk 300 3
+S Orange 500 1 10
+S Orange 300 1 10

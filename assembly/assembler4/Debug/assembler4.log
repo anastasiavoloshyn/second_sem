@@ -1,0 +1,3 @@
+﻿  assembler4.cpp
+C:\Users\Artem\source\repos\2_Semestr\assembler4\assembler4.cpp(47,1): warning C4102: 'end': unreferenced label
+  assembler4.vcxproj -> C:\Users\Artem\source\repos\2_Semestr\assembler4\Debug\assembler4.exe

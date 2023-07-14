@@ -1,0 +1,4 @@
+﻿  assembler10.cpp
+C:\Users\Artem\source\repos\2_Semestr\assembler10\assembler10.cpp(15,24): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\Artem\source\repos\2_Semestr\assembler10\assembler10.cpp(15,14): warning C4309: 'initializing': truncation of constant value
+C:\Users\Artem\source\repos\2_Semestr\assembler10\assembler10.cpp(17,3): error C2400: inline assembler syntax error in 'second operand'; found 'newline'

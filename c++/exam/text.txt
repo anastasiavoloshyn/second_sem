@@ -1,0 +1,13 @@
+S 123 Tyshyk 
+History 4
+English 2
+Math 4
+S 43 Voloshyna
+History 5
+English 4
+Math 4
+B 56 Pasvlish
+History 5
+Math 5
+English 5
+12

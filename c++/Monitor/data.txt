@@ -1,0 +1,6 @@
+5
+p model1 30 250 30
+p model2 10 1000 30
+b model3 20 300 30
+b model3 20 500 30
+b model3 20 100 30
