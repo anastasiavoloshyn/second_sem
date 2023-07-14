@@ -1,8 +1,0 @@
-6
-Printer 3800 "Xiaomi" 200 14 
-Computer Laptop 12500 "Lenovo" 240 12 12 2400
-Computer Server 10500 "Linux" 300 14 2
-Printer 5400 "Pixma" 20 4
-Computer Laptop 54800 "Macbook" 400 16 16 3000
-Printer 6900 "Samsung" 300 2
-
