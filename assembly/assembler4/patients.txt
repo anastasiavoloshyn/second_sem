@@ -1,9 +1,0 @@
-Patient 91 with doctor Dr. Johnson
-Patient 75 with doctor Dr. Smith
-Patient 66 with doctor Dr. Smith
-Patient 64 with doctor Dr. Johnson
-Patient 66 with doctor Dr. Johnson
-Patient 35 with doctor Dr. Johnson
-Patient 11 with doctor Dr. Johnson
-Patient 6 with doctor Dr. Smith
-Patient 1 with doctor Dr. Smith
